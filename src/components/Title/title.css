@@ -1,0 +1,23 @@
+.characters-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.characters-img{
+    margin-left: 5%;
+    margin-right: 35%;
+}
+
+.characters-img img{
+    width: 100%;
+}
+
+.characters-text{
+font-family: Roboto;
+font-size: 36px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0px;
+text-align: center;
+}

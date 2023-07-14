@@ -1,0 +1,30 @@
+.page{
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-content-img img{
+width: 100%;
+}
+
+.page-content-name{
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+}
+
+
+.page-details,
+.page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.page-details-text{
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+color: blue;
+}

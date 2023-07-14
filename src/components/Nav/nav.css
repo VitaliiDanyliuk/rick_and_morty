@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Roboto:wght@400;700&display=swap');
+
+.nav{
+width: 65%
+}
+
+
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav-list-item{
+ overflow: hidden;
+list-style: none;
+text-decoration: none;
+}
+
+.nav-list a{
+font-family: Karla;
+line-height: 21px;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+font-size: 18px;
+font-weight: 700;
+color: #000000;
+transition: all 0.2s ease-in;
+
+}
+
+.nav-list a:hover{
+    opacity: 0.8;
+    border-bottom: 2px solid #000000;
+}

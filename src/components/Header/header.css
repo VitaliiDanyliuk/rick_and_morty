@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-shadow: -2px 0px 8px 2px #0000001A;
+    margin-bottom: 15px;
+
+}

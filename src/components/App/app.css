@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Roboto:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+}
+
+.App{
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
